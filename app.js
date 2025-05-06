@@ -79,7 +79,7 @@ fetch("https://fakestoreapi.com/products")
           let span = document.createElement("span");
           span.textContent = prod.price + "$";
           let count = document.createElement("span");
-          count.textContent ="Say: "+ prod.say;
+          count.textContent = "Say: " + prod.say;
           count.classList.add("text-blue-500", "block");
 
           let close = document.createElement("span");
@@ -114,3 +114,5 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   basketAside.classList.remove("!visible", "!opacity-100", "!left-0");
 });
+
+console.log("Salam");
